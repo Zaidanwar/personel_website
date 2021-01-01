@@ -21,7 +21,7 @@ def index(request):
     about=Description.objects.get(title="About").description
     contact=Description.objects.get(title="Contact").description
     cover_photo=Profile_photo.objects.get(description="Cover photo").image
-    passport_photo = Profile_photo.objects.get(description="Passport photo").image
+    passport_photo = Profile_photo.objects.get(description="profile photo").image
     language=Language_skill.objects.all().order_by('no')
     education = Education.objects.all().order_by('no')
     hobby=Hobbie.objects.all().order_by('no')

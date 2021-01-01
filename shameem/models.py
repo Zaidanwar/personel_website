@@ -17,7 +17,7 @@ class Description(models.Model):
 
 class Project(models.Model):
     no=models.IntegerField(default=0)
-    title = models.CharField(max_length=40, default="")
+    title = models.CharField(max_length=100, default="")
     description=models.CharField(max_length=300,default='')
     document=models.FileField(upload_to='reports/')
     def __str__(self):
