@@ -26,7 +26,7 @@ SECRET_KEY = 'kai#_v=ax7wlhto025()-za!&rlze^$b_nk*qf*)0ug0d$jt-b'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1','anwarwebsite.herokuapp.com']
 
 
 # Application definition
